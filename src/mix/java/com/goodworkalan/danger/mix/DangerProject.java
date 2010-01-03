@@ -1,4 +1,4 @@
-package com.goodworkalan.cassandra.mix;
+package com.goodworkalan.danger.mix;
 
 import com.goodworkalan.go.go.Artifact;
 import com.goodworkalan.mix.ProjectModule;
@@ -16,7 +16,6 @@ public class DangerProject extends ProjectModule {
                         .artifact(new Artifact("com.github.bigeasy.notice/notice-message/0.1"))
                         .end()
                     .end()
-                .end()
                 .test()
                     .depends()
                         .artifact(new Artifact("org.testng/testng/5.10/jdk15"))
